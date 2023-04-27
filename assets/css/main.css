@@ -3139,6 +3139,11 @@ input, select, textarea {
 			padding: 0 1.5em;
 		}
 
+		#header .logo img{
+			margin-top: 20px;
+			width: 50px;
+		}
+
 			#header .logo strong {
 				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3380,7 +3385,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/Cultura_Hurlingham.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
