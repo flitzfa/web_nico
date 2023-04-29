@@ -1,11 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -3118,7 +3113,7 @@ input, select, textarea {
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
-		height: 3.25em;
+		height: 4.25em;
 		left: 0;
 		letter-spacing: 0.25em;
 		line-height: 3.25em;
@@ -3140,8 +3135,8 @@ input, select, textarea {
 		}
 
 		#header .logo img{
-			margin-top: 20px;
-			width: 50px;
+			padding-top: 5.5px;
+			width: 60px;
 		}
 
 			#header .logo strong {
@@ -3199,6 +3194,7 @@ input, select, textarea {
 
 				#header nav a[href="#menu"] {
 					padding-right: 3.325em !important;
+					padding-top: 10px;
 				}
 
 					#header nav a[href="#menu"]:before, #header nav a[href="#menu"]:after {
@@ -3307,6 +3303,7 @@ input, select, textarea {
 
 			#header nav a[href="#menu"] {
 				padding-right: 4em !important;
+				padding-top: 7px;
 			}
 
 				#header nav a[href="#menu"]:last-child {
@@ -3318,7 +3315,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2.75em;
+				height: 3.75em;
 				line-height: 2.75em;
 			}
 
@@ -3479,14 +3476,14 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
+					font-size: 0.99em;
 					font-weight: 600;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
 				}
 
 		#banner.major {
-			height: 75vh;
+			height: 100vh;
 			min-height: 30em;
 			max-height: 50em;
 		}
@@ -3657,7 +3654,7 @@ input, select, textarea {
 			}
 
 				#contact > .inner > .split > * {
-					padding: 3em 0 1em 3em ;
+					padding: 3em 0 6em 3em ;
 					position: relative;
 				}
 
