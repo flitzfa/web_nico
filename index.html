@@ -125,7 +125,8 @@
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Enviar Mensaje" class="primary" /></li>
+										<li><input type="submit" value="Enviar Mensaje" class="primary" id="enviar-btn" />
+										</li>
 										<li><input type="reset" value="Borrar" /></li>
 										<input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
 										<input type="hidden" name="_captcha" value="false">
@@ -174,6 +175,15 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<!-- <script>
+				document.querySelector('form').addEventListener('submit', function () {
+				  setTimeout(function() {
+					alert('Su mensaje ha sido enviado');
+				  }, 10);
+				});
+			  </script>
+			   -->
 
 	</body>
 </html>
