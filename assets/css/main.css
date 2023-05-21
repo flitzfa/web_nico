@@ -3959,3 +3959,17 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+.iframeYoutube{
+	max-width: 100%;
+	width: 100%;
+}
+
+@media (min-width: 980px) {
+	.iframeYoutube {
+	  max-width: 100%;
+	  height: auto;
+	  width: 100%;
+	}
+  }
+  
